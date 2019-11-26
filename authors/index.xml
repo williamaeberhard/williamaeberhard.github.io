@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 William H. Aeberhard</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 William H. Aeberhard</copyright><lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;I obtained my PhD in Statistics in 2015 in a cotutelle between the &lt;a href=&#34;https://www.unige.ch/gsem/en/research/institutes/rcs&#34; target=&#34;_blank&#34;&gt;University of Geneva&lt;/a&gt; and the &lt;a href=&#34;https://sydney.edu.au/&#34; target=&#34;_blank&#34;&gt;University of Sydney&lt;/a&gt;. I then worked as a post-doctoral fellow at &lt;a href=&#34;https://www.dal.ca/faculty/science/math-stats.html&#34; target=&#34;_blank&#34;&gt;Dalhousie University&lt;/a&gt; as part of a Canadian Statistical Sciences Institute collaborative research team. Since 2018, I am an Assistant Professor of Statistics in the &lt;a href=&#34;https://www.stevens.edu/schaefer-school-engineering-science/departments/mathematical-sciences&#34; target=&#34;_blank&#34;&gt;Department of Mathematical Sciences&lt;/a&gt; at Stevens Institute of Technology.&lt;/p&gt;
 
@@ -24,10 +24,162 @@
     </item>
     
     <item>
-      <title>Robert Ford</title>
-      <link>/authors/robert-ford/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/authors/robert-ford/</guid>
+      <title>Chris Field</title>
+      <link>/authors/chris-field/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/chris-field/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethan Lawler</title>
+      <link>/authors/ethan-lawler/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/ethan-lawler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joanna Mills Flemming</title>
+      <link>/authors/joanna-mills-flemming/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/joanna-mills-flemming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kim Whoriskey</title>
+      <link>/authors/kim-whoriskey/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/kim-whoriskey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stephen J. Smith</title>
+      <link>/authors/stephen-j.-smith/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/stephen-j.-smith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yihao Yi</title>
+      <link>/authors/yihao-yi/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/yihao-yi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anders Nielsen</title>
+      <link>/authors/anders-nielsen/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/anders-nielsen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boris Worm</title>
+      <link>/authors/boris-worm/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/boris-worm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carlos A. M. Barboza</title>
+      <link>/authors/carlos-a.-m.-barboza/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/carlos-a.-m.-barboza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Francisco R. Barboza</title>
+      <link>/authors/francisco-r.-barboza/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/francisco-r.-barboza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leonardo Ortega</title>
+      <link>/authors/leonardo-ortega/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/leonardo-ortega/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Omar Defeo</title>
+      <link>/authors/omar-defeo/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/omar-defeo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ricardo S. Cardoso</title>
+      <link>/authors/ricardo-s.-cardoso/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/ricardo-s.-cardoso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tatiana M. B. Cabrini</title>
+      <link>/authors/tatiana-m.-b.-cabrini/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/tatiana-m.-b.-cabrini/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Viviane Skinner</title>
+      <link>/authors/viviane-skinner/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/viviane-skinner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eva Cantoni</title>
+      <link>/authors/eva-cantoni/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/eva-cantoni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stephane Heritier</title>
+      <link>/authors/stephane-heritier/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/stephane-heritier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Costanza Bonadonna</title>
+      <link>/authors/costanza-bonadonna/</link>
+      <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/costanza-bonadonna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gholamhossein Bagheri</title>
+      <link>/authors/gholamhossein-bagheri/</link>
+      <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/gholamhossein-bagheri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sebastien Biass</title>
+      <link>/authors/sebastien-biass/</link>
+      <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/sebastien-biass/</guid>
       <description></description>
     </item>
     
