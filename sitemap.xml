@@ -33,6 +33,96 @@
   </url>
   
   <url>
+    <loc>/authors/admin/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/3/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/article/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/eva-cantoni/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/giampiero-marra/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/preprint/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/aeberhard_et_al_2019_robgamlss/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/rosalba-radice/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/submitted/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/chris-field/</loc>
+    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/hans-r.-kuensch/</loc>
+    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/joanna-mills-flemming/</loc>
+    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/aeberhard_et_al_2019_robssm/</loc>
+    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ximing-xu/</loc>
+    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
@@ -43,27 +133,7 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/article/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/chris-field/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,38 +143,18 @@
   </url>
   
   <url>
-    <loc>/authors/joanna-mills-flemming/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/kim-whoriskey/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
+    <loc>/tags/published/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/lawler_et_al_2019/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -193,11 +243,6 @@
   </url>
   
   <url>
-    <loc>/authors/eva-cantoni/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/aeberhard_et_al_2017/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
@@ -278,6 +323,21 @@
   </url>
   
   <url>
+    <loc>/publication_types/6/</loc>
+    <lastmod>2015-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bookchapters/</loc>
+    <lastmod>2015-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/aeberhard_et_al_2015/</loc>
+    <lastmod>2015-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/costanza-bonadonna/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
@@ -300,11 +360,6 @@
   <url>
     <loc>/publication/aeberhard_et_al_2014/</loc>
     <lastmod>2014-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

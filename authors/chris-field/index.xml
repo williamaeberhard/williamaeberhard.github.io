@@ -5,12 +5,44 @@
     <link>/authors/chris-field/</link>
       <atom:link href="/authors/chris-field/index.xml" rel="self" type="application/rss+xml" />
     <description>Chris Field</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 William H. Aeberhard</copyright><lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 William H. Aeberhard</copyright><lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Chris Field</title>
       <link>/authors/chris-field/</link>
     </image>
+    
+    <item>
+      <title>Robust Estimation for Discrete-Time State Space Models</title>
+      <link>/publication/aeberhard_et_al_2019_robssm/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/aeberhard_et_al_2019_robssm/</guid>
+      <description>&lt;!-- Publication type legend:
+0 = Uncategorized
+1 = Conference proceedings
+2 = Journal
+3 = Work in progress
+4 = Technical report
+5 = Book
+6 = Book chapter --&gt;
+
+&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>The conditionally autoregressive hidden Markov model (CarHMM): Inferring behavioural states from animal tracking data exhibiting conditional autocorrelation</title>

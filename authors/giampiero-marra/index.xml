@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giampiero Marra | William H. Aeberhard</title>
+    <link>/authors/giampiero-marra/</link>
+      <atom:link href="/authors/giampiero-marra/index.xml" rel="self" type="application/rss+xml" />
+    <description>Giampiero Marra</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 William H. Aeberhard</copyright><lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Giampiero Marra</title>
+      <link>/authors/giampiero-marra/</link>
+    </image>
+    
+    <item>
+      <title>Robust Fitting for Generalized Additive Models for Location, Scale and Shape</title>
+      <link>/publication/aeberhard_et_al_2019_robgamlss/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/aeberhard_et_al_2019_robgamlss/</guid>
+      <description>&lt;!-- Publication type legend:
+0 = Uncategorized
+1 = Conference proceedings
+2 = Journal
+3 = Work in progress
+4 = Technical report
+5 = Book
+6 = Book chapter --&gt;
+
+&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

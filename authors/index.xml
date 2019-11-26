@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 William H. Aeberhard</copyright><lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 William H. Aeberhard</copyright><lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;I obtained my PhD in Statistics in 2015 in a cotutelle between the &lt;a href=&#34;https://www.unige.ch/gsem/en/research/institutes/rcs&#34; target=&#34;_blank&#34;&gt;University of Geneva&lt;/a&gt; and the &lt;a href=&#34;https://sydney.edu.au/&#34; target=&#34;_blank&#34;&gt;University of Sydney&lt;/a&gt;. I then worked as a post-doctoral fellow at &lt;a href=&#34;https://www.dal.ca/faculty/science/math-stats.html&#34; target=&#34;_blank&#34;&gt;Dalhousie University&lt;/a&gt; as part of a Canadian Statistical Sciences Institute collaborative research team. Since 2018, I am an Assistant Professor of Statistics in the &lt;a href=&#34;https://www.stevens.edu/schaefer-school-engineering-science/departments/mathematical-sciences&#34; target=&#34;_blank&#34;&gt;Department of Mathematical Sciences&lt;/a&gt; at Stevens Institute of Technology.&lt;/p&gt;
 
@@ -24,10 +24,58 @@
     </item>
     
     <item>
+      <title>Eva Cantoni</title>
+      <link>/authors/eva-cantoni/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/eva-cantoni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giampiero Marra</title>
+      <link>/authors/giampiero-marra/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/giampiero-marra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rosalba Radice</title>
+      <link>/authors/rosalba-radice/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/rosalba-radice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chris Field</title>
       <link>/authors/chris-field/</link>
-      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/chris-field/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hans R. Kuensch</title>
+      <link>/authors/hans-r.-kuensch/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/hans-r.-kuensch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joanna Mills Flemming</title>
+      <link>/authors/joanna-mills-flemming/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/joanna-mills-flemming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ximing Xu</title>
+      <link>/authors/ximing-xu/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/ximing-xu/</guid>
       <description></description>
     </item>
     
@@ -36,14 +84,6 @@
       <link>/authors/ethan-lawler/</link>
       <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
       <guid>/authors/ethan-lawler/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Joanna Mills Flemming</title>
-      <link>/authors/joanna-mills-flemming/</link>
-      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/joanna-mills-flemming/</guid>
       <description></description>
     </item>
     
@@ -140,14 +180,6 @@
       <link>/authors/viviane-skinner/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       <guid>/authors/viviane-skinner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eva Cantoni</title>
-      <link>/authors/eva-cantoni/</link>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/authors/eva-cantoni/</guid>
       <description></description>
     </item>
     
