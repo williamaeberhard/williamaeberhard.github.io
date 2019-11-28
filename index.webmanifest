@@ -2,8 +2,8 @@
   "name": "William H. Aeberhard",
   "short_name": "William H. Aeberhard",
   "lang": "en-us",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
+  "theme_color": "#aa2232",
+  "background_color": "#aa2232",
   "icons": [{
     "src": "../img/icon-192.png",
     "sizes": "192x192",
