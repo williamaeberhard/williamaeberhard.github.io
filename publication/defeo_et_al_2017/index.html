@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.2">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="William H. Aeberhard">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="While geographical patterns of species richness are reasonably well explored for single well-studied taxa, less is known about aggregate patterns of total richness for major biomes and their environmental correlates. Here we analyse continental-scale aggregate patterns of macrofaunal diversity for sandy beaches, a dominant habitat along the Atlantic and Pacific coasts of South America. We compiled richness information for all macrofaunal groups on 263 sandy beaches in South America using standard criteria. We further matched these data with environmental variables including sea surface temperature (SST), chlorophyll a, grain size, beach slope, tide range and various morphometrics. We used generalized linear mixed models to relate environmental factors to observed variation in total macrofaunal richness across all beaches, testing competing hypotheses about environmental correlates and possible drivers of latitudinal diversity. Macrofaunal richness decreased from tropical to temperate beaches in the Pacific and followed a parabolic trend in the Atlantic, with the highest biodiversity found at tropical and mid-latitudinal bands. Beach slope, tidal range and chlorophyll a mostly explained latitudinal trends in macrofaunal richness, followed by grain size, SST and ocean basin. This study indicates that richness of macrofaunal species at a given beach is most closely related to characteristics of the physical habitat, such as beach slope, area and grain size. At this scale, planktonic food supply also appeared to be more important than temperature, which is a dominant explanatory variable of global-scale variation in species richness.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/publication/defeo_et_al_2017/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#aa2232">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/publication/defeo_et_al_2017/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="William H. Aeberhard">
+  <meta property="og:url" content="/publication/defeo_et_al_2017/">
+  <meta property="og:title" content="Aggregate Patterns of Macrofaunal Diversity: An Interocean Comparison | William H. Aeberhard">
+  <meta property="og:description" content="While geographical patterns of species richness are reasonably well explored for single well-studied taxa, less is known about aggregate patterns of total richness for major biomes and their environmental correlates. Here we analyse continental-scale aggregate patterns of macrofaunal diversity for sandy beaches, a dominant habitat along the Atlantic and Pacific coasts of South America. We compiled richness information for all macrofaunal groups on 263 sandy beaches in South America using standard criteria. We further matched these data with environmental variables including sea surface temperature (SST), chlorophyll a, grain size, beach slope, tide range and various morphometrics. We used generalized linear mixed models to relate environmental factors to observed variation in total macrofaunal richness across all beaches, testing competing hypotheses about environmental correlates and possible drivers of latitudinal diversity. Macrofaunal richness decreased from tropical to temperate beaches in the Pacific and followed a parabolic trend in the Atlantic, with the highest biodiversity found at tropical and mid-latitudinal bands. Beach slope, tidal range and chlorophyll a mostly explained latitudinal trends in macrofaunal richness, followed by grain size, SST and ocean basin. This study indicates that richness of macrofaunal species at a given beach is most closely related to characteristics of the physical habitat, such as beach slope, area and grain size. At this scale, planktonic food supply also appeared to be more important than temperature, which is a dominant explanatory variable of global-scale variation in species richness."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2017-04-27T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2017-04-27T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/defeo_et_al_2017/"
+  },
+  "headline": "Aggregate Patterns of Macrofaunal Diversity: An Interocean Comparison",
+  
+  "datePublished": "2017-04-27T00:00:00Z",
+  "dateModified": "2017-04-27T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Omar Defeo"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "William H. Aeberhard",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/img/icon-512.png"
+    }
+  },
+  "description": "While geographical patterns of species richness are reasonably well explored for single well-studied taxa, less is known about aggregate patterns of total richness for major biomes and their environmental correlates. Here we analyse continental-scale aggregate patterns of macrofaunal diversity for sandy beaches, a dominant habitat along the Atlantic and Pacific coasts of South America. We compiled richness information for all macrofaunal groups on 263 sandy beaches in South America using standard criteria. We further matched these data with environmental variables including sea surface temperature (SST), chlorophyll a, grain size, beach slope, tide range and various morphometrics. We used generalized linear mixed models to relate environmental factors to observed variation in total macrofaunal richness across all beaches, testing competing hypotheses about environmental correlates and possible drivers of latitudinal diversity. Macrofaunal richness decreased from tropical to temperate beaches in the Pacific and followed a parabolic trend in the Atlantic, with the highest biodiversity found at tropical and mid-latitudinal bands. Beach slope, tidal range and chlorophyll a mostly explained latitudinal trends in macrofaunal richness, followed by grain size, SST and ocean basin. This study indicates that richness of macrofaunal species at a given beach is most closely related to characteristics of the physical habitat, such as beach slope, area and grain size. At this scale, planktonic food supply also appeared to be more important than temperature, which is a dominant explanatory variable of global-scale variation in species richness."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Aggregate Patterns of Macrofaunal Diversity: An Interocean Comparison | William H. Aeberhard</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    
+      <a class="navbar-brand" href="/">William H. Aeberhard</a>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications_submitted"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#software"><span>Software</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Aggregate Patterns of Macrofaunal Diversity: An Interocean Comparison</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/omar-defeo/">Omar Defeo</a></span>, <span><a href="/authors/carlos-a.-m.-barboza/">Carlos A. M. Barboza</a></span>, <span><a href="/authors/francisco-r.-barboza/">Francisco R. Barboza</a></span>, <span><a href="/authors/admin/">William H. Aeberhard</a></span>, <span><a href="/authors/tatiana-m.-b.-cabrini/">Tatiana M. B. Cabrini</a></span>, <span><a href="/authors/ricardo-s.-cardoso/">Ricardo S. Cardoso</a></span>, <span><a href="/authors/leonardo-ortega/">Leonardo Ortega</a></span>, <span><a href="/authors/viviane-skinner/">Viviane Skinner</a></span>, <span><a href="/authors/boris-worm/">Boris Worm</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    April 2017
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/defeo_et_al_2017/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1111/geb.12588" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">While geographical patterns of species richness are reasonably well explored for single well-studied taxa, less is known about aggregate patterns of total richness for major biomes and their environmental correlates. Here we analyse continental-scale aggregate patterns of macrofaunal diversity for sandy beaches, a dominant habitat along the Atlantic and Pacific coasts of South America. We compiled richness information for all macrofaunal groups on 263 sandy beaches in South America using standard criteria. We further matched these data with environmental variables including sea surface temperature (SST), chlorophyll a, grain size, beach slope, tide range and various morphometrics. We used generalized linear mixed models to relate environmental factors to observed variation in total macrofaunal richness across all beaches, testing competing hypotheses about environmental correlates and possible drivers of latitudinal diversity. Macrofaunal richness decreased from tropical to temperate beaches in the Pacific and followed a parabolic trend in the Atlantic, with the highest biodiversity found at tropical and mid-latitudinal bands. Beach slope, tidal range and chlorophyll a mostly explained latitudinal trends in macrofaunal richness, followed by grain size, SST and ocean basin. This study indicates that richness of macrofaunal species at a given beach is most closely related to characteristics of the physical habitat, such as beach slope, area and grain size. At this scale, planktonic food supply also appeared to be more important than temperature, which is a dominant explanatory variable of global-scale variation in species richness.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Global Ecology and Biogeography</em> 26 (7), 823&ndash;834</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><!-- Publication type legend:
+0 = Uncategorized
+1 = Conference proceedings
+2 = Journal
+3 = Work in progress
+4 = Technical report
+5 = Book
+6 = Book chapter -->
+
+<!-- <div class="alert alert-note">
+  <div>
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  </div>
+</div>
+
+
+<div class="alert alert-note">
+  <div>
+    Click the <em>Slides</em> button above to demo Academic&rsquo;s Markdown slides feature.
+  </div>
+</div>
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+</div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/article/">Article</a>
+  
+  <a class="badge badge-light" href="/tags/published/">Published</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/omar-defeo/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/aeberhard_et_al_2017/">Saddlepoint Tests for Accurate and Robust Inference on Overdispersed Count Data</a></li>
+      
+      <li><a href="/publication/biass_et_al_2014/">TError: Towards a Better Quantification of the Uncertainty Propagated during the Characterization of Tephra Deposits</a></li>
+      
+      <li><a href="/publication/aeberhard_et_al_2014/">Robust Inference in the Negative Binomial Regression Model with an Application to Falls Data</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</div>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.0e306e8373c36761cd7c6bcf5dfb6df2.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2020 William H. Aeberhard &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -5,7 +5,7 @@
     <link>/authors/eva-cantoni/</link>
       <atom:link href="/authors/eva-cantoni/index.xml" rel="self" type="application/rss+xml" />
     <description>Eva Cantoni</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 William H. Aeberhard</copyright><lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 William H. Aeberhard</copyright><lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Eva Cantoni</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Robust Fitting for Generalized Additive Models for Location, Scale and Shape</title>
       <link>/publication/aeberhard_et_al_2019_robgamlss/</link>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/publication/aeberhard_et_al_2019_robgamlss/</guid>
       <description>&lt;!-- Publication type legend:
 0 = Uncategorized
@@ -47,7 +47,7 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     <item>
       <title>Robust Estimation for Discrete-Time State Space Models</title>
       <link>/publication/aeberhard_et_al_2019_robssm/</link>
-      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/publication/aeberhard_et_al_2019_robssm/</guid>
       <description>&lt;!-- Publication type legend:
 0 = Uncategorized
