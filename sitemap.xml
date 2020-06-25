@@ -53,12 +53,32 @@
   </url>
   
   <url>
+    <loc>/authors/boris-worm/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/eva-cantoni/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/giampiero-marra/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/john-p.-tyminski/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/kirtsi-a.-burnett/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/manuel-dureuil/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -74,6 +94,11 @@
   
   <url>
     <loc>/publication/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/robert-e.-hueter/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,6 +123,16 @@
   </url>
   
   <url>
+    <loc>/publication/dureuil_et_al_2020_natmort/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/chris-field/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
@@ -109,6 +144,11 @@
   
   <url>
     <loc>/authors/joanna-mills-flemming/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/published/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -133,22 +173,12 @@
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/ethan-lawler/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/kim-whoriskey/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/published/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -199,11 +229,6 @@
   
   <url>
     <loc>/publication/defeo_et_al_2017/</loc>
-    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/boris-worm/</loc>
     <lastmod>2017-04-27T00:00:00+00:00</lastmod>
   </url>
   
