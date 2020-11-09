@@ -29,18 +29,18 @@
     </item>
     
     <item>
-      <title>Submitted</title>
-      <link>/tags/submitted/</link>
+      <title>Published</title>
+      <link>/tags/published/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/submitted/</guid>
+      <guid>/tags/published/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Published</title>
-      <link>/tags/published/</link>
-      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/published/</guid>
+      <title>Submitted</title>
+      <link>/tags/submitted/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/submitted/</guid>
       <description></description>
     </item>
     

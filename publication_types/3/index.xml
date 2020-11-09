@@ -13,38 +13,6 @@
     </image>
     
     <item>
-      <title>Robust Fitting for Generalized Additive Models for Location, Scale and Shape</title>
-      <link>/publication/aeberhard_et_al_2019_robgamlss/</link>
-      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/aeberhard_et_al_2019_robgamlss/</guid>
-      <description>&lt;!-- Publication type legend:
-0 = Uncategorized
-1 = Conference proceedings
-2 = Journal
-3 = Work in progress
-4 = Technical report
-5 = Book
-6 = Book chapter --&gt;
-
-&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Unified Natural Mortality Estimator for Marine Fish</title>
       <link>/publication/dureuil_et_al_2020_natmort/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
