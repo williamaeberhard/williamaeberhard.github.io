@@ -5,7 +5,7 @@
     <link>/authors/manuel-dureuil/</link>
       <atom:link href="/authors/manuel-dureuil/index.xml" rel="self" type="application/rss+xml" />
     <description>Manuel Dureuil</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 William H. Aeberhard</copyright><lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 William H. Aeberhard</copyright><lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Manuel Dureuil</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Unified Natural Mortality Estimator for Marine Fish</title>
       <link>/publication/dureuil_et_al_2020_natmort/</link>
-      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       <guid>/publication/dureuil_et_al_2020_natmort/</guid>
       <description>&lt;!-- Publication type legend:
 0 = Uncategorized
@@ -47,7 +47,7 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     <item>
       <title>Reliable growth estimation from mark–recapture tagging data in elasmobranchs</title>
       <link>/publication/dureuil_et_al_2020_growth/</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
       <guid>/publication/dureuil_et_al_2020_growth/</guid>
       <description>&lt;!-- Publication type legend:
 0 = Uncategorized
