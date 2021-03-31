@@ -5,12 +5,24 @@
     <link>/tags/article/</link>
       <atom:link href="/tags/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 William H. Aeberhard</copyright><lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 William H. Aeberhard</copyright><lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Article</title>
       <link>/tags/article/</link>
     </image>
+    
+    <item>
+      <title>Reliable growth estimation from mark–recapture tagging data in elasmobranchs</title>
+      <link>/publication/dureuil_et_al_2020_growth/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/dureuil_et_al_2020_growth/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
     
     <item>
       <title>Unified natural mortality estimation for teleosts and elasmobranchs</title>
