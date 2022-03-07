@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>William H. Aeberhard</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 William H. Aeberhard</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 William H. Aeberhard</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>William H. Aeberhard</title>
@@ -71,11 +71,41 @@
     </item>
     
     <item>
-      <title>Reliable growth estimation from mark–recapture tagging data in elasmobranchs</title>
-      <link>/publication/dureuil_et_al_2020_growth/</link>
-      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/dureuil_et_al_2020_growth/</guid>
+      <title>Insights into the vulnerability of vegetation to tephra fallouts from interpretable machine learning and big Earth observation data</title>
+      <link>/publication/biass_et_al_2022/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/biass_et_al_2022/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reliable growth estimation from mark–recapture tagging data in elasmobranchs</title>
+      <link>/publication/dureuil_et_al_2022_growth/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/dureuil_et_al_2022_growth/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robust Estimation for Discrete-Time State Space Models</title>
+      <link>/publication/aeberhard_et_al_2021_robssm/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/aeberhard_et_al_2021_robssm/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -96,21 +126,9 @@
     
     <item>
       <title>Robust Fitting for Generalized Additive Models for Location, Scale and Shape</title>
-      <link>/publication/aeberhard_et_al_2019_robgamlss/</link>
+      <link>/publication/aeberhard_et_al_2021_robgamlss/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/aeberhard_et_al_2019_robgamlss/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Robust Estimation for Discrete-Time State Space Models</title>
-      <link>/publication/aeberhard_et_al_2020_robssm/</link>
-      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/aeberhard_et_al_2020_robssm/</guid>
+      <guid>/publication/aeberhard_et_al_2021_robgamlss/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;

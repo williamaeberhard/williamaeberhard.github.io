@@ -5,12 +5,26 @@
     <link>/tags/published/</link>
       <atom:link href="/tags/published/index.xml" rel="self" type="application/rss+xml" />
     <description>Published</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 William H. Aeberhard</copyright><lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 William H. Aeberhard</copyright><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Published</title>
       <link>/tags/published/</link>
     </image>
+    
+    <item>
+      <title>Robust Estimation for Discrete-Time State Space Models</title>
+      <link>/publication/aeberhard_et_al_2021_robssm/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/aeberhard_et_al_2021_robssm/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
     
     <item>
       <title>Unified natural mortality estimation for teleosts and elasmobranchs</title>
@@ -26,21 +40,9 @@
     
     <item>
       <title>Robust Fitting for Generalized Additive Models for Location, Scale and Shape</title>
-      <link>/publication/aeberhard_et_al_2019_robgamlss/</link>
+      <link>/publication/aeberhard_et_al_2021_robgamlss/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/aeberhard_et_al_2019_robgamlss/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Robust Estimation for Discrete-Time State Space Models</title>
-      <link>/publication/aeberhard_et_al_2020_robssm/</link>
-      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/aeberhard_et_al_2020_robssm/</guid>
+      <guid>/publication/aeberhard_et_al_2021_robgamlss/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
