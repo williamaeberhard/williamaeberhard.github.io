@@ -5,12 +5,26 @@
     <link>/tags/article/</link>
       <atom:link href="/tags/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 William H. Aeberhard</copyright><lastBuildDate>Fri, 02 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 William H. Aeberhard</copyright><lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Article</title>
       <link>/tags/article/</link>
     </image>
+    
+    <item>
+      <title>Whitespotted eagle ray (Aetobatus narinari) age and growth in wild (in-situ) versus aquarium-housed (ex-situ) individuals: Implications for conservation and management</title>
+      <link>/publication/boggiopasqua_et_al_2022/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/boggiopasqua_et_al_2022/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
     
     <item>
       <title>Insights into the vulnerability of vegetation to tephra fallouts from interpretable machine learning and big Earth observation data</title>
