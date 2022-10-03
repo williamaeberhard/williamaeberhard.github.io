@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nita Soans | William H. Aeberhard</title>
+    <link>/authors/nita-soans/</link>
+      <atom:link href="/authors/nita-soans/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nita Soans</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 William H. Aeberhard</copyright><lastBuildDate>Mon, 03 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Nita Soans</title>
+      <link>/authors/nita-soans/</link>
+    </image>
+    
+    <item>
+      <title>Modeling fine-grained spatio-temporal pollution maps with low-cost sensors</title>
+      <link>/publication/iyer_et_al_2022/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/iyer_et_al_2022/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
