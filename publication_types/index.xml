@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | William H. Aeberhard</title>
-    <link>/publication_types/</link>
-      <atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:4321/publication_types/</link>
+      <atom:link href="//localhost:4321/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 William H. Aeberhard</copyright><lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>//localhost:4321/media/icon_hu7729264130191091259.png</url>
       <title>Publication_types</title>
-      <link>/publication_types/</link>
+      <link>//localhost:4321/publication_types/</link>
     </image>
     
   </channel>
