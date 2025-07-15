@@ -41,10 +41,12 @@
   
     
   
-  <meta name="description" content="State-space models (SSMs) are now popular tools in fisheries science for providing management advice when faced with noisy survey and commercial fishery data. Such models are often fitted within a Bayesian framework requiring both the specification of prior distributions for model parameters and simulation-based approaches for inference. Here we present a frequentist framework as a viable alternative and recommend using the Laplace approximation with automatic differentiation, as implemented in the R package Template Model Builder, for fast fitting and reliable inference. Additionally we highlight some identifiability issues associated with SSMs that fisheries scientists should be aware of and demonstrate how our modelling strategy surmounts these problems. Using the Bay of Fundy sea scallop fishery we show that our implementation yields more conservative advice than that of the reference model." />
+  <meta name="description" content="This study presents a data-driven reconstruction of daily runoff that covers the entirety of Switzerland over an extensive period from 1962 to 2023. To this end, we harness the capabilities of deep learning-based models to learn complex runoff-generating processes directly from observations, thereby facilitating efficient large-scale simulation of runoff rates at ungauged locations. By driving the resulting model with gridded temperature and precipitation data available since the 1960s, we provide a spatiotemporally continuous reconstruction of runoff. The efficacy of the developed model is thoroughly assessed through spatiotemporal cross-validation and compared against a distributed hydrological model, a model used operationally in Switzerland.
+The developed data-driven model demonstrates not only competitive performance but also notable improvements over traditional hydrological modeling in replicating daily runoff patterns, capturing annual variability, and discerning long-term trends. The resulting long-term reconstruction of runoff is subsequently used to delineate significant shifts in Swiss water resources throughout the past decades. These are characterized by an increased occurrence of dry years, contributing to a negative decadal trend, particularly during the summer months. These insights are pivotal for the understanding and management of water resources, particularly in the context of climate change and environmental conservation. The reconstruction product is made available online.
+Furthermore, the reduced data dependency and computational efficiency of our model pave the way for simulating diverse scenarios and conducting comprehensive climate attribution studies. This represents a substantial progression in the field, allowing for the analysis of thousands of scenarios in a time frame significantly shorter than traditional methods." />
 
   
-  <link rel="alternate" hreflang="en-us" href="//localhost:4321/publications/yin_et_al_2019/" />
+  <link rel="alternate" hreflang="en-us" href="//localhost:4321/publications/kraft_et_al_2025-copy/" />
 
   
   
@@ -161,7 +163,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu3247630877640252165.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4166356570829923896.png" />
 
-  <link rel="canonical" href="//localhost:4321/publications/yin_et_al_2019/" />
+  <link rel="canonical" href="//localhost:4321/publications/kraft_et_al_2025-copy/" />
 
   
   
@@ -184,18 +186,20 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="William H. Aeberhard" />
-  <meta property="og:url" content="//localhost:4321/publications/yin_et_al_2019/" />
-  <meta property="og:title" content="Identifiable state-space models: A case study of the Bay of Fundy sea scallop fishery | William H. Aeberhard" />
-  <meta property="og:description" content="State-space models (SSMs) are now popular tools in fisheries science for providing management advice when faced with noisy survey and commercial fishery data. Such models are often fitted within a Bayesian framework requiring both the specification of prior distributions for model parameters and simulation-based approaches for inference. Here we present a frequentist framework as a viable alternative and recommend using the Laplace approximation with automatic differentiation, as implemented in the R package Template Model Builder, for fast fitting and reliable inference. Additionally we highlight some identifiability issues associated with SSMs that fisheries scientists should be aware of and demonstrate how our modelling strategy surmounts these problems. Using the Bay of Fundy sea scallop fishery we show that our implementation yields more conservative advice than that of the reference model." /><meta property="og:image" content="//localhost:4321/media/icon_hu7729264130191091259.png" />
+  <meta property="og:url" content="//localhost:4321/publications/kraft_et_al_2025-copy/" />
+  <meta property="og:title" content="CH-RUN: A deep-learning-based spatially contiguous runoff reconstruction for Switzerland | William H. Aeberhard" />
+  <meta property="og:description" content="This study presents a data-driven reconstruction of daily runoff that covers the entirety of Switzerland over an extensive period from 1962 to 2023. To this end, we harness the capabilities of deep learning-based models to learn complex runoff-generating processes directly from observations, thereby facilitating efficient large-scale simulation of runoff rates at ungauged locations. By driving the resulting model with gridded temperature and precipitation data available since the 1960s, we provide a spatiotemporally continuous reconstruction of runoff. The efficacy of the developed model is thoroughly assessed through spatiotemporal cross-validation and compared against a distributed hydrological model, a model used operationally in Switzerland.
+The developed data-driven model demonstrates not only competitive performance but also notable improvements over traditional hydrological modeling in replicating daily runoff patterns, capturing annual variability, and discerning long-term trends. The resulting long-term reconstruction of runoff is subsequently used to delineate significant shifts in Swiss water resources throughout the past decades. These are characterized by an increased occurrence of dry years, contributing to a negative decadal trend, particularly during the summer months. These insights are pivotal for the understanding and management of water resources, particularly in the context of climate change and environmental conservation. The reconstruction product is made available online.
+Furthermore, the reduced data dependency and computational efficiency of our model pave the way for simulating diverse scenarios and conducting comprehensive climate attribution studies. This represents a substantial progression in the field, allowing for the analysis of thousands of scenarios in a time frame significantly shorter than traditional methods." /><meta property="og:image" content="//localhost:4321/media/icon_hu7729264130191091259.png" />
     <meta property="twitter:image" content="//localhost:4321/media/icon_hu7729264130191091259.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2019-03-01T00:00:00&#43;00:00"
+        content="2025-12-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2019-03-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2025-12-01T00:00:00&#43;00:00">
   
 
   
@@ -205,7 +209,7 @@
   
 
 
-  <title>Identifiable state-space models: A case study of the Bay of Fundy sea scallop fishery | William H. Aeberhard</title>
+  <title>CH-RUN: A deep-learning-based spatially contiguous runoff reconstruction for Switzerland | William H. Aeberhard</title>
 
   
   
@@ -232,10 +236,6 @@
   
 
 
-  
-  
-  
-  
   
   
   
@@ -571,25 +571,17 @@
         <ul class="hb-sidebar-list"><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/publications/aeberhard_et_al_2025/"
-    
-  >Spatio-Temporal Routing Module for Data-Driven River Discharge Prediction
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/publications/kraft_et_al_2025b/"
-    
-  >Modeling uncertainty with engression: a deep generative time-series approach
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/publications/pernov_et_al_2025/"
     
   >Data-driven modeling of environmental factors influencing Arctic methanesulfonic acid aerosol concentrations
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/aeberhard_et_al_2025/"
+    
+  >Spatio-Temporal Routing Module for Data-Driven River Discharge Prediction
     </a>
               
             </li><li class="flex flex-col "><a
@@ -599,6 +591,15 @@
     
   >Long-term aerial monitoring of Florida manatees, Trichechus manatus latirostris, in a diverse Gulf Coast environment
     </a>
+              
+            </li><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+    href="/publications/kraft_et_al_2025-copy/"
+    
+  >CH-RUN: A deep-learning-based spatially contiguous runoff reconstruction for Switzerland
+    </a>
+  
               
             </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
@@ -688,14 +689,13 @@
   >The conditionally autoregressive hidden Markov model (CarHMM): Inferring behavioural states from animal tracking data exhibiting conditional autocorrelation
     </a>
               
-            </li><li class="flex flex-col open"><a
+            </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
-      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/publications/yin_et_al_2019/"
     
   >Identifiable state-space models: A case study of the Bay of Fundy sea scallop fishery
     </a>
-  
               
             </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
@@ -810,16 +810,24 @@
 
       
 
-      <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Identifiable state-space models: A case study of the Bay of Fundy sea scallop fishery</h1>
+      <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">CH-RUN: A deep-learning-based spatially contiguous runoff reconstruction for Switzerland</h1>
 
       <div class="mt-4 mb-16">
-      <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2"><span class="mr-1">1010-33-00</span><span class="mx-1">·</span>
+      <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2"><span class="mr-1">1010-1212-00</span><span class="mx-1">·</span>
         
           
           
           <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
             
-            <div >Yihao Yin</div>
+            <div >Basil Kraft</div>
+          </div>
+          
+        
+          
+          <span class="mr-1">,</span>
+          <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
+            
+            <div >Michael Schirmer</div>
           </div>
           
         
@@ -838,7 +846,7 @@
           <span class="mr-1">,</span>
           <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
             
-            <div >Stephen J. Smith</div>
+            <div >Massimiliano Zappa</div>
           </div>
           
         
@@ -846,7 +854,15 @@
           <span class="mr-1">,</span>
           <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
             
-            <div >Joanna Mills Flemming</div>
+            <div >Sonia I. Seneviratne</div>
+          </div>
+          
+        
+          
+          <span class="mr-1">,</span>
+          <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
+            
+            <div >Lukas Gudmundsson</div>
           </div>
           
         
@@ -877,7 +893,7 @@
 
 
 
-<a class="hb-attachment-link hb-attachment-large" href="/publications/yin_et_al_2019/cite.bib" target="_blank" data-filename="/publications/yin_et_al_2019/cite.bib">
+<a class="hb-attachment-link hb-attachment-large" href="/publications/kraft_et_al_2025-copy/cite.bib" target="_blank" data-filename="/publications/kraft_et_al_2025-copy/cite.bib">
   <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
   Cite
 </a>
@@ -887,7 +903,7 @@
   
     
   
-<a class="hb-attachment-link hb-attachment-large" href="https://github.com/williamaeberhard/SSM-SeaScallops" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-large" href="https://github.com/bask0/mach-flow" target="_blank" rel="noopener">
   <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
   Code
 </a>
@@ -903,7 +919,7 @@
 
 
 
-<a class="hb-attachment-link hb-attachment-large" href="https://doi.org/10.1002/cjs.11470" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-large" href="https://doi.org/10.5194/hess-29-1061-2025" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -927,7 +943,9 @@
 
         
           <div class="font-bold text-2xl">Abstract</div>
-          <div>State-space models (SSMs) are now popular tools in fisheries science for providing management advice when faced with noisy survey and commercial fishery data. Such models are often fitted within a Bayesian framework requiring both the specification of prior distributions for model parameters and simulation-based approaches for inference. Here we present a frequentist framework as a viable alternative and recommend using the Laplace approximation with automatic differentiation, as implemented in the R package Template Model Builder, for fast fitting and reliable inference. Additionally we highlight some identifiability issues associated with SSMs that fisheries scientists should be aware of and demonstrate how our modelling strategy surmounts these problems. Using the Bay of Fundy sea scallop fishery we show that our implementation yields more conservative advice than that of the reference model.</div>
+          <div>This study presents a data-driven reconstruction of daily runoff that covers the entirety of Switzerland over an extensive period from 1962 to 2023. To this end, we harness the capabilities of deep learning-based models to learn complex runoff-generating processes directly from observations, thereby facilitating efficient large-scale simulation of runoff rates at ungauged locations. By driving the resulting model with gridded temperature and precipitation data available since the 1960s, we provide a spatiotemporally continuous reconstruction of runoff. The efficacy of the developed model is thoroughly assessed through spatiotemporal cross-validation and compared against a distributed hydrological model, a model used operationally in Switzerland.
+The developed data-driven model demonstrates not only competitive performance but also notable improvements over traditional hydrological modeling in replicating daily runoff patterns, capturing annual variability, and discerning long-term trends. The resulting long-term reconstruction of runoff is subsequently used to delineate significant shifts in Swiss water resources throughout the past decades. These are characterized by an increased occurrence of dry years, contributing to a negative decadal trend, particularly during the summer months. These insights are pivotal for the understanding and management of water resources, particularly in the context of climate change and environmental conservation. The reconstruction product is made available online.
+Furthermore, the reduced data dependency and computational efficiency of our model pave the way for simulating diverse scenarios and conducting comprehensive climate attribution studies. This represents a substantial progression in the field, allowing for the analysis of thousands of scenarios in a time frame significantly shorter than traditional methods.</div>
         
 
         
@@ -942,7 +960,7 @@
 
         
           <div class="font-bold text-2xl">Publication</div>
-          <div><em>Canadian Journal of Statistics</em> 47 (1), 27&ndash;47</div>
+          <div><em>Hydrology and Earth System Sciences</em> 29 (4), 1061&ndash;1082</div>
         
 
         
@@ -1002,9 +1020,9 @@ Publication type legend:
       </div>
 
       
-  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2019-03-01T00:00:00.000Z">
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-12-01T00:00:00.000Z">
     <span>Last updated on</span>
-    1010-33-00</time>
+    1010-1212-00</time>
 
       <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
         
@@ -1035,17 +1053,17 @@ Publication type legend:
   <div class="flex flex-col md:flex-row flex-nowrap justify-between gap-5 pt-2">
     <div class="">
       
-        <a class="group flex no-underline" href="/publications/lawler_et_al_2019/">
+        <a class="group flex no-underline" href="/publications/scolardi_et_al_2025/">
           <span
             class="mt-[-0.3rem] me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
           ><span class="ltr:inline rtl:hidden">&larr;</span></span>
           <span class="flex flex-col">
             <span
               class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-            >The conditionally autoregressive hidden Markov model (CarHMM): Inferring behavioural states from animal tracking data exhibiting conditional autocorrelation</span>
+            >Long-term aerial monitoring of Florida manatees, Trichechus manatus latirostris, in a diverse Gulf Coast environment</span>
             <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
               
-                22220-55-00
+                30300-1212-00
               
             </span>
           </span>
@@ -1054,15 +1072,15 @@ Publication type legend:
     </div>
     <div class="">
       
-        <a class="group flex text-right no-underline" href="/publications/aeberhard_et_al_2018/">
+        <a class="group flex text-right no-underline" href="/publications/kraft_et_al_2025/">
           <span class="flex flex-col">
             <span
               class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-            >Review of State-Space Models for Fisheries Science</span
+            >CH-RUN: A deep-learning-based spatially contiguous runoff reconstruction for Switzerland</span
             >
             <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
               
-                1010-33-00
+                1010-1212-00
               
             </span>
           </span>
